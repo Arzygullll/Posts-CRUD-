@@ -1,0 +1,16 @@
+.like-button {
+  font-size: 1.5rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+}
+
+.like-button .liked {
+  color: red;
+}
+
+.like-button:hover {
+  cursor: pointer;
+}

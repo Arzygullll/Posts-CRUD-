@@ -1,0 +1,94 @@
+body {
+  background: radial-gradient(circle, #c5c5c5 10%, transparent 70%);
+}
+
+.post-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.post-card .card-body {
+  padding: 1.5rem;
+}
+
+.post-card .card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-card .card-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+}
+
+.post-actions .btn {
+  margin-right: 0.5rem;
+}
+
+.post-actions .btn-link {
+  font-size: 1.5rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.post-card .btn {
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.post-card .btn-primary {
+  background: linear-gradient(to right, #e96443, #904e95);
+  border: none;
+}
+
+.post-card .btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.post-card .btn-warning {
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  border: none;
+}
+
+.post-card .btn-warning:hover {
+  transform: translateY(-2px);
+}
+
+.post-card .btn-danger {
+  background: linear-gradient(to right, #c2e59c, #64b3f4);
+  border: none;
+}
+
+.post-card .btn-danger:hover {
+  transform: translateY(-2px);
+}
+
+.post-card .btn-link {
+  font-size: 1.5rem;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
